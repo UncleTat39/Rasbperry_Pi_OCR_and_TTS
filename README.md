@@ -7,20 +7,31 @@ Python version:3.11.2 can run this project.
 
 
 Install Ekho environment for Raspberry Pi:
+
 ===== Setup build environment for github code under Ubuntu =====
+
 $ sudo apt install autoconf libtool 
+
 $ cd ekho
+
 $ ./autogen.sh
+
 $ sudo apt install libsndfile1-dev libespeak-ng-dev libpulse-dev texinfo libltdl-dev libmpg123-dev libsonic-dev libutfcpp-dev
+
 $ ./configure
+
 $ make CXXFLAGS=-O0
+
 $ ./ekho 123
+
 
 Others can follow this link for install Ekho environment: https://github.com/hgneng/ekho/blob/master/INSTALL
 
 
 Paddle OCR:
+
 $ python -m pip install paddlepaddle==3.0.0rc1 -i https://www.paddlepaddle.org.cn/packages/stable/cpu/
+
 $ pip install paddleocr
 
 This is the easiest way to use Paddle OCR.
