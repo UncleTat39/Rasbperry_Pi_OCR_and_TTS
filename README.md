@@ -3,7 +3,7 @@
 Use Raspberry Pi 5 with Paddle OCR and Ekho TTS to build a read-aloud system that supports Cantonese, Mandarin and other Chinese dialects.
 
 
-Python version:3.11.2 can run this project.
+Python version:3.11.2 can run this project. And I use USB camera.
 
 
 Install Ekho environment for Raspberry Pi:
